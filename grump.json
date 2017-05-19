@@ -1,0 +1,10 @@
+{
+  "defaultCommand": "filesize",
+  "commands": {
+    "filesize": {
+      "scriptType": "bash",
+      "scriptPath": "filesize.sh",
+      "vars": {}
+    }
+  }
+}
