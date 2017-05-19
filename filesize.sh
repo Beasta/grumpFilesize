@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ $# -eq 0 ]
   then
-    echo "what file"
+    echo "What file needs sized?"
     read filename
   else
     filename=$1
