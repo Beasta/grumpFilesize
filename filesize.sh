@@ -6,6 +6,6 @@ if [ $# -eq 0 ]
   else
     filename=$1
 fi
-file_size_kb=`du -k "$filename" | cut -f1`
-echo "$filename is $file_size_kb kb"
+file_size_xb=`du -h "$filename" | cut -f1`
+echo "$filename is ${file_size_xb}b"
 
